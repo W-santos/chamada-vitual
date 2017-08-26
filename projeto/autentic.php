@@ -28,7 +28,8 @@ foreach($array as $json){
 if ($correto == 1)
   header('Location: /dweb/projeto/chamada.php');
 else
-  echo "Login e/ou Senhaincorreta";
+  // echo "Login e/ou Senhaincorreta";
+  header('Location: /dweb/projeto/index.html');
 
 
   //
