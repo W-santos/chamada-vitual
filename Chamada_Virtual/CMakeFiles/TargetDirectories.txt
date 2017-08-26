@@ -1,0 +1,3 @@
+/home/weslley/Documentos/dweb/Chamada_Virtual/CMakeFiles/edit_cache.dir
+/home/weslley/Documentos/dweb/Chamada_Virtual/CMakeFiles/rebuild_cache.dir
+/home/weslley/Documentos/dweb/Chamada_Virtual/CMakeFiles/chamada.dir

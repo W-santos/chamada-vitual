@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+project( hand )
+find_package( OpenCV REQUIRED )
+INCLUDE_DIRECTORIES( ${OpenCV_INCLUDE_DIRS} )
+add_executable( chamada teste.cpp )
+target_link_libraries( chamada ${OpenCV_LIBS} )
