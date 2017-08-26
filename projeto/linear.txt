@@ -1,0 +1,27 @@
+Email: linsgutemberg@yahoo.com.br
+
+Lista: 1, 2, 3, 5, 9, 12, 15, 7
+
+
+1) i) T (u + v) = T(u) + T(v)
+   ii) T(K.u) = K.T(u)
+   
+2) Base de V
+  L = {(-1,1), (0,1)}
+  a) (x,y) = a(-1,1) + b(0,1)
+        x = -a => a = -x
+        y = a + b => y = -x + b => b = y + x
+     T(x,y) = Ta(-1,1) + Tb(0,1)
+     T(x,y) = a(3, 2, 1) + b(1,1, 0)
+        T(x,y) =(-x)(3,2,1) + (x + y)(1, 1, 0)
+        T(x,y) =(-3x, 2x, 1x) + (x + y, x +y, 0)
+        T(x,y) =(-2x + y, -x + y, -x) [RESPOSTA]
+  
+  b)
+  
+9) T: R3 -> R3 (Operador Linear sobre R3)
+      Kert -> T(0) = 0
+   L = {(1, 2, -1), (1, -1, 0), (1, 0, 0)[Esse aqui foi colocado para poder fazer, pode colocar]}
+   (x, y, z) = a(1, 2, -1) + b(1, -1, 0) + c(1, 0, 0)
+   T(x, y, z) = aT(1, 2, -1) + bT(1, -1, 0) + cT(1, 0, 0)
+   T(x, y, z) = 0[ta no nucleo] + 0[ta no nucleo] + c(1, 0, 0)
